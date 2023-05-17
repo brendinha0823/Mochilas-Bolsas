@@ -2,10 +2,30 @@
     --texto-principal:#ffffff;
     --botao-cinza:#5E6D80;
     --cor-do-fundo:#9DA1AC;
+    --fonte-principal:'Raleway';
 }
 
 body{
     background-color: var(--cor-do-fundo);
     color: var(--texto-principal);
+    font-family:var(--fonte-principal);
+    font-size: 40px;
+    font-weight: 300;
+}
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-image: url("./img/Group\ 29.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 88%;
+}
+.container{
+    height: 65vh;
+    display: grid;
+    grid-template-columns: 45% 55%;
 }
