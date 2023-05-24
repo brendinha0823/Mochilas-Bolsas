@@ -23,9 +23,32 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 88%;
+    text-align: center;
+    align-items: center;
 }
 .container{
     height: 65vh;
     display: grid;
     grid-template-columns: 45% 55%;
+}
+.container--titulo{
+    font-size: 45px;
+    font-weight: 600;
+}
+.container--botao{
+    background-color: var(--botao-cinza);
+    padding: 1em;
+    border-radius: 5px;
+    color: var(--texto-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.container--botao_secundario{
+    background-color: transparent;
+    border:2px solid var(--texto-principal);
+}
+.container--aviso{
+    color: var(--texto-principal);
+    font-size: 20px;
 }
