@@ -51,4 +51,21 @@ body{
 .container--aviso{
     color: var(--texto-principal);
     font-size: 20px;
+
+}
+.secundario{
+    align-items: center;
+    font-size: 36px;
+    margin:5em 6em 0;
+}
+.descricao--titulo{
+    font-weight: 600;
+    color: var(--texto-principal);
+    margin-bottom: 0.1em;
+}
+.descricao--texto{
+    color: var(--texto-principal);
+}
+.secundario--imagem{
+    width: 80%;
 }
